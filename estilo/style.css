@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(79, 79, 79);
+    
+}
+
+header {
+    text-align: center;
+}
+
+#cabecera {
+    text-align: center;
+    text-shadow: none;
+
+}
+
+div.conjunto{
+    display: inline-block;
+    /* margin: auto; */
+    padding: 5%;
+}
+div > div{
+    
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+div > p {
+    /* padding-left: 0px; */
+    display: inline-block;
+    font-size: small;
+    text-align: center;
+    text-decoration: solid;
+    letter-spacing: cm;
+}
+
+button {
+    text-align: right;
+    margin-left: 100px;
+    color: rgb(38, 255, 0);
+    background-color: rgb(79, 79, 79);
+    border-radius: 10px;
+}
+
+.fotos1 {
+    background-image: url(/galeria_de_imagenes/assents/imagenes/gallery_photo_1.avif);
+    background-position:bottom;
+    background-size: cover;
+}
+
+.fotos2 {
+    background-image: url(/galeria_de_imagenes/assents/imagenes/gallery_photo_2.avif);
+    background-position: -400px -80px;
+
+}
+
+.fotos3 {
+    background-image: url(/galeria_de_imagenes/assents/imagenes/gallery_photo_3.avif);
+    background-position: -50px;
+    background-size: cover;
+}
+.fotos4 {
+    background-image: url(/galeria_de_imagenes/assents/imagenes/gallery_photo_4.avif);
+    background-size: 50%;
+}
+
+.fotos5 {
+    background-image: url(/galeria_de_imagenes/assents/imagenes/gallery_photo_5.avif);
+    background-position:bottom right;
+    
+}
+
+.fotos6 {
+    background-image: url(/galeria_de_imagenes/assents/imagenes/gallery_photo_6.avif);
+    background-position: ;
+    background-size: cover;
+}
